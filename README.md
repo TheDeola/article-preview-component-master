@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot%202022-06-12%20at%2022.42.16.png)
-![](./images/Screenshot%202022-06-12%20at%2022.42.47.png)
+![Mobile](./images/Screenshot1.png)
+![Desktop](./images/Screenshot2.png)
 
 ### Links
 
