@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+.container {
+    height: 100vh;
+    margin-top: 15%;
+    background-color: hsl(210, 46%, 95%);
+}
+.card {
+    border: .5px solid hsl(210, 46%, 95%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 800px;
+    height: 260px;
+    margin: auto;
+    display: flex;
+    color: hsl(217, 19%, 35%);
+}
+.bannerinfo {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bannerinfo p {
+    font-size: small;
+    padding-right: 50px;
+}
+.drawers img[src] {
+    width: 300px;
+    height: 260px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.sharecard {
+    display: flex;
+}
+.sharecard img[src]{
+    width: 50px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+.sharecard p {
+    margin-top: 1px;
+}
+.profiledate {
+    padding-right: 20%;
+}
+.profiledate span {
+    font-weight: 700;
+    font-size: small;
+}
+.profiledate p{
+    font-size: x-small;
+    font-weight: 500;
+}
+.sharebtn img[src] {
+    border: .2px solid hsl(210, 46%, 95%);
+    background-color: hsl(210, 46%, 95%);
+    padding: 5px;
+    border-radius: 50%;
+    height: 30px;
+    width:30px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.hide {
+    border: .5px solid hsl(217, 19%, 35%);
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    overflow: hidden;
+    font-size: xx-small;
+    letter-spacing: 2px;
+    display: none;
+}
+.hide img[src] {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        border: .5px solid hsl(210, 46%, 95%);
+        height: auto;
+        width: 375px;
+        margin: auto;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: hsl(217, 19%, 35%);
+        text-align: left;
+    }
+    .drawers img[src] {
+        width: 374px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+    }
+    .bannerinfo {
+        background-color: white;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        margin-top: -5px;
+        padding: 20px 30px 0 30px;
+    }
+    .bannerinfo h1 {
+        font-size: larger;
+    }
+    .bannerinfo p {
+        padding: 0;
+        line-height: 20px;
+        padding-bottom: 40px;
+    }
+    .hide {
+        display: none;
+    }
+}
